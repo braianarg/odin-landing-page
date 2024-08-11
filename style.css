@@ -1,0 +1,167 @@
+body {
+  font-family: Roboto, "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+  padding: 12px 140px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+  align-items: center;
+  color: #e5e7eb;
+  padding-bottom: 100px;
+}
+
+#header-logo-text {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.hero-main-text {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+img {
+  width: 400px;
+  flex: 1;
+}
+
+.text {
+  align-content: center;
+  margin-right: 20px;
+  width: 50%;
+}
+
+.signup-btn {
+  background-color: #3882f6;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.h1-header {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.info-section {
+  margin-bottom: 100px;
+}
+
+.info-header-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.subtext-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.box-text {
+  display: flex;
+  width: 150px;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  border: 3px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 50px 200px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: right;
+  margin: 0;
+}
+
+.call-to-action {
+  padding: 150px;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  padding: 50px 90px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+h3 {
+  color: #f9faf8;
+  margin: 0;
+}
+
+.cta-wrapper-text {
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.cta-btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  padding: 8px 30px;
+  font-size: 18px;
+  border: 2px solid #f9faf8;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 40px;
+  font-size: large;
+}
